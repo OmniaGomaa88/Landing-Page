@@ -1,3 +1,99 @@
+header{
+    text-align: center;
+}
+
 strong{
     font-size: 20px;
 }
+li{
+    float: right;
+    display: inline;
+    
+}
+a{
+   text-decoration: none;
+   padding: 40px;
+   color: black;}
+#logo{
+    float: left;
+}
+h1{
+    padding-top:50px;
+}
+.button{
+    background-color: #f1c410;
+    font-weight: bold;
+    font-size: 15px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    max-width: 700px;
+    position: absolute;
+left:400px ;
+}
+
+iframe{
+    padding-left: 50px;
+
+}
+section{
+    position: absolute;
+    top:1000px;
+    left: 200px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.top{
+    background-color: #cec8c8;
+    font-size: 20px;
+    font-weight: bold;
+  top: 0px;
+    
+    
+
+}
+.box{
+    border: 2px solid black;
+    text-align: center;
+    margin-left:30px;
+    width: 300px;
+    height: 300px;
+   padding-top: 0px;
+}
+table {
+    margin-left: 80px;
+    font-size: 15px;
+    font-weight: 300px;
+   border-spacing:10px;
+}
+.selectButton{
+    background-color: #f1c410;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 100px;
+    height:auto;
+
+}
+footer{
+    position: relative;
+    top:1200px;
+    bottom: 0;
+    width: 80%;
+   height: 80px;
+   text-align: right;
+ background-color:#cec8c8;
+ margin-left: 180px;
+}
+footer p{
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+footer ul a{
+    padding-right: 3px;
+    padding: 10px;
+}
+
